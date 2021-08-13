@@ -28,7 +28,7 @@ function draw()
 
             fill("#FF0000");
             percent = floor(objects[i].confidence * 100);
-            text(objects[i].label + " "+percent + "4", objects[i].x) + 15, objects[i].y + 15;
+            text(objects[i].label + " "+percent + "4", objects[i].x + 15, objects[i].y + 15);
             noFill();
             stroke("#FF0000");
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
